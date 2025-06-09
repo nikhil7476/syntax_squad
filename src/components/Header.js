@@ -9,7 +9,7 @@ const Header = () => {
       <Container>
         <Navbar.Brand href="/" title="SyntaxSquad" className={styles.logo}>
           <FaLaptopCode className={styles.logoIcon} />
-          <span>SyntaxSquad</span>
+          SyntaxSquad
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"

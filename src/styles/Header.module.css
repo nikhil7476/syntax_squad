@@ -6,7 +6,7 @@
 .logo {
   color: var(--highlight);
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 24px;
   display: flex;
   align-items: center;
   gap: 8px;

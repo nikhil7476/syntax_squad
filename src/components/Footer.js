@@ -18,7 +18,7 @@ const Footer = () => {
           <Col xl={6} lg={6} md={6} sm={12} xs={12}>
             <Link href="/" title="SyntaxSquad" className={styles.left}>
               <FaLaptopCode className={styles.logoIcon} />
-              <span>SyntaxSquad</span>
+              SyntaxSquad
             </Link>
           </Col>
           <Col
