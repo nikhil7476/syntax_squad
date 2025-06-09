@@ -1,11 +1,11 @@
 .footer {
-  background-color: #0c1c2c;
+  background-color: var(--background);
   padding: 30px 0;
-  color: #d8f3dc;
+  color: var(--foreground);
 }
 
 .left {
-  color: #4efc75;
+  color: var(--highlight);
   font-weight: bold;
   font-size: 1.5rem;
   text-decoration: none;
@@ -15,7 +15,7 @@
 }
 
 .left:hover {
-  color: #d8f3dc;
+  color: var(--foreground);
 }
 
 .logoIcon {
@@ -23,13 +23,13 @@
 }
 
 .icon {
-  color: #d8f3dc;
+  color: var(--foreground);
   font-size: 1.2rem;
   transition: color 0.3s ease;
 }
 
 .icon:hover {
-  color: #4efc75;
+  color: var(--highlight);
 }
 
 /*Media Query Styles*/

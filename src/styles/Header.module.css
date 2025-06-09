@@ -1,10 +1,10 @@
 .navbar {
-  background-color: #0c1c2c;
+  background-color: var(--background);
   padding: 15px 0;
 }
 
 .logo {
-  color: #4efc75;
+  color: var(--highlight);
   font-weight: bold;
   font-size: 1.5rem;
   display: flex;
@@ -13,7 +13,7 @@
 }
 
 .logo:hover {
-  color: #d8f3dc;
+  color: var(--foreground);
 }
 
 .logoIcon {
@@ -21,16 +21,17 @@
 }
 
 .link {
-  color: #d8f3dc !important;
+  color: var(--foreground) !important;
   margin-left: 20px;
+  font-size: 20px;
   font-weight: 500;
   transition: color 0.3s ease;
 }
 
 .link:hover {
-  color: #4efc75 !important;
+  color: var(--highlight) !important;
 }
 
 .toggleBtn {
-  background-color: #4efc75;
+  background-color: var(--highlight);
 }
