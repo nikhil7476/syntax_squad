@@ -6,10 +6,14 @@
 .logo {
   color: var(--highlight);
   font-weight: bold;
-  font-size: 24px;
   display: flex;
   align-items: center;
   gap: 8px;
+}
+
+.logo span {
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .logo:hover {

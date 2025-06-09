@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
 import { FaLaptopCode } from "react-icons/fa";
 import styles from "@/styles/Header.module.css";
 
@@ -9,7 +9,7 @@ const Header = () => {
       <Container>
         <Navbar.Brand href="/" title="SyntaxSquad" className={styles.logo}>
           <FaLaptopCode className={styles.logoIcon} />
-          SyntaxSquad
+          <span>SyntaxSquad</span>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
