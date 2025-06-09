@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <Navbar expand="lg" className={styles.navbar} sticky="top">
       <Container>
-        <Navbar.Brand href="/" className={styles.logo}>
+        <Navbar.Brand href="/" title="SyntaxSquad" className={styles.logo}>
           <FaLaptopCode className={styles.logoIcon} />
           <span>SyntaxSquad</span>
         </Navbar.Brand>
