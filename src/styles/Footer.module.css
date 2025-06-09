@@ -1,0 +1,45 @@
+.footer {
+  background-color: #0c1c2c;
+  padding: 30px 0;
+  color: #d8f3dc;
+}
+
+.left {
+  color: #4efc75;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.left:hover {
+  color: #d8f3dc;
+}
+
+.logoIcon {
+  font-size: 1.8rem;
+}
+
+.icon {
+  color: #d8f3dc;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: #4efc75;
+}
+
+/*Media Query Styles*/
+@media screen and (max-width: 550px) {
+  .left {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .socialIcons {
+    justify-content: center !important;
+  }
+}
