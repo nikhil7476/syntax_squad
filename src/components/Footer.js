@@ -15,7 +15,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       <Container>
         <Row>
-          <Col xl={6} lg={6} md={6} sm={12} xs={12}>
+          <Col xl={6} lg={6} md={6} sm={6} xs={12}>
             <Link href="/" title="SyntaxSquad" className={styles.left}>
               <FaLaptopCode className={styles.logoIcon} />
               <span>SyntaxSquad</span>
@@ -25,7 +25,7 @@ const Footer = () => {
             xl={6}
             lg={6}
             md={6}
-            sm={12}
+            sm={6}
             xs={12}
             className={`d-flex gap-4 justify-content-end ${styles.socialIcons}`}
           >
