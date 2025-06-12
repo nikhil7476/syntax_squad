@@ -1,7 +1,8 @@
 import React from "react";
-import { Navbar, Nav, Container } from "react-bootstrap";
+import { Navbar, Nav, Container, Button } from "react-bootstrap";
 import { FaLaptopCode } from "react-icons/fa";
 import styles from "@/styles/Header.module.css";
+import OffHeader from "./OffHeader";
 
 const Header = () => {
   return (
@@ -16,7 +17,7 @@ const Header = () => {
           className={styles.toggleBtn}
         />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
+          <Nav>
             <Nav.Link href="/" className={styles.link}>
               Home
             </Nav.Link>
@@ -37,6 +38,7 @@ const Header = () => {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
+        <OffHeader />
       </Container>
     </Navbar>
   );
