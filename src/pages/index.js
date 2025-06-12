@@ -13,8 +13,6 @@ function Home() {
           name="description"
           content="Syntax Squad | Crafting Digital Excellence, One Syntax at a Time."
         />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.home}>
         <section>
